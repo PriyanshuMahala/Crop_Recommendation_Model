@@ -1,0 +1,438 @@
+﻿{
+  "Scenario": "Classification",
+  "DataSource": {
+    "Version": 3,
+    "EscapeCharacter": "\"",
+    "ReadMultiLines": false,
+    "KeepDiacritics": false,
+    "KeepPunctuations": false,
+    "AllowQuoting": false,
+    "Type": "TabularFile",
+    "FilePath": "C:\\Users\\HP\\Downloads\\Crop_recommendation.csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "N",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "P",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "K",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "temperature",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "humidity",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "ph",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "rainfall",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "label",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "String",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.99521172121812729,
+        "RuntimeInSeconds": 53.185,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e5 * e10",
+          "e0": {
+            "OutputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "label",
+            "InputColumnName": "label",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e5": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 0.027382318131738439,
+            "NumberOfTrees": 3859,
+            "SubsampleFraction": 0.015756934038035457,
+            "MaximumBinCountPerFeature": 207,
+            "FeatureFraction": 0.87214472572348689,
+            "L1Regularization": 2.7266941922100829E-10,
+            "L2Regularization": 0.99999977667298645,
+            "LabelColumnName": "label",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.99419915917650226,
+        "RuntimeInSeconds": 42.859,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e5 * e10",
+          "e0": {
+            "OutputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "label",
+            "InputColumnName": "label",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e5": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 0.17467931692449395,
+            "NumberOfTrees": 2611,
+            "SubsampleFraction": 0.933822991897838,
+            "MaximumBinCountPerFeature": 244,
+            "FeatureFraction": 0.9171456905265376,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 0.99999977667298645,
+            "LabelColumnName": "label",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.990508059344401,
+        "RuntimeInSeconds": 24.413,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e5 * e10",
+          "e0": {
+            "OutputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "label",
+            "InputColumnName": "label",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e5": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 0.6371397473116327,
+            "NumberOfTrees": 1558,
+            "SubsampleFraction": 0.99999977667298645,
+            "MaximumBinCountPerFeature": 245,
+            "FeatureFraction": 0.99999999,
+            "L1Regularization": 3.0764154135698444E-10,
+            "L2Regularization": 0.99999977667298645,
+            "LabelColumnName": "label",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.98708303795322117,
+        "RuntimeInSeconds": 7.798,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e10",
+          "e0": {
+            "OutputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "label",
+            "InputColumnName": "label",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e3": {
+            "NumberOfLeaves": 28,
+            "MinimumExampleCountPerLeaf": 36,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 454,
+            "FeatureFraction": 0.9437825094090273,
+            "LearningRate": 0.69083008457073181,
+            "LabelColumnName": "label",
+            "FeatureColumnName": "Features",
+            "DiskTranspose": false
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.98673929107042591,
+        "RuntimeInSeconds": 6.17,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e10",
+          "e0": {
+            "OutputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "label",
+            "InputColumnName": "label",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e3": {
+            "NumberOfLeaves": 13,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 256,
+            "FeatureFraction": 0.99999999,
+            "LearningRate": 0.3571495653221346,
+            "LabelColumnName": "label",
+            "FeatureColumnName": "Features",
+            "DiskTranspose": false
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "ReplaceMissingValues",
+      "e1": "Concatenate",
+      "e2": "MapValueToKey",
+      "e3": "FastTreeOva",
+      "e4": "FastForestOva",
+      "e5": "LightGbmMulti",
+      "e6": "LbfgsLogisticRegressionOva",
+      "e7": "LbfgsMaximumEntropyMulti",
+      "e8": "SdcaMaximumEntropyMulti",
+      "e9": "SdcaLogisticRegressionOva",
+      "e10": "MapKeyToValue"
+    },
+    "Schema": "e0 * e1 * e2 * (e3 + e4 + e5 + e6 + e7 + e8 + e9) * e10",
+    "MetricName": "MacroAccuracy",
+    "ModelFilePath": "C:\\Projects\\Crop Recommendation Model\\Crop Recommendation Model\\Predictor.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 5,
+  "TrainingOption": {
+    "Version": 2,
+    "Subsampling": false,
+    "Type": "ClassificationTrainingOption",
+    "TrainingTime": 600,
+    "LabelColumn": "label",
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "CrossValidationValidationOption",
+      "NumberOfFolds": 5
+    }
+  }
+}
