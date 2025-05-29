@@ -3,17 +3,72 @@
 *@
 @{
 }
+@model PredictorModel;
 
 <!DOCTYPE html>
 
 <html lang="en">
 <head>
-    type="text/html; charset=utf-8" />
     <title>Crop Recommendation Result</title>
 
 </head>
 <body>
-<h1 class="text-center">TO BE IMPLEMENTED</h1>
+<h1 class="text-center">RESULTS</h1>
+<h2>Your Input Parameters</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Parameter</th>
+        <th>Value</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <strong>Nitrogen (N)</strong>
+        </td>
+        <td>@Model.Nitrogen</td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Phosphorus (P)</strong>
+        </td>
+        <td>@Model.Phosphorus</td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Potassium (K)</strong>
+        </td>
+        <td>@Model.Potassium</td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Temperature</strong>
+        </td>
+        <td>@Model.Temperature &#8451;</td> @* Added Celsius symbol *@
+    </tr>
+    <tr>
+        <td>
+            <strong>Humidity</strong>
+        </td>
+        <td>@Model.Humidity %</td>
+    </tr>
+    <tr>
+        <td>
+            <strong>pH</strong>
+        </td>
+        <td>@Model.Ph</td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Rainfall</strong>
+        </td>
+        <td>@Model.Rainfall mm</td>
+    </tr>
+    </tbody>
+</table>
+
+<h2>Recommended crop: @ViewData["Prediction"] </h2>
 </body>
 
 </html>
