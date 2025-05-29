@@ -9,8 +9,8 @@
     <PackageReference Include="Microsoft.ML" Version="3.0.1" />
     <PackageReference Include="Microsoft.ML.LightGbm" Version="3.0.1" />
   </ItemGroup>
-  <ItemGroup Label="Predictor">
-    <None Include="Predictor.mlnet">
+  <ItemGroup>
+    <None Update="Predictor.mlnet">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

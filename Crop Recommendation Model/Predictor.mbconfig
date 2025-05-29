@@ -8,7 +8,7 @@
     "KeepPunctuations": false,
     "AllowQuoting": false,
     "Type": "TabularFile",
-    "FilePath": "C:\\Users\\HP\\Downloads\\Crop_recommendation.csv",
+    "FilePath": "C:\\Users\\noobs\\source\\repos\\PriyanshuMahala\\Crop_Recommendation_Model\\Crop Recommendation Model\\Crop_recommendation.csv",
     "Delimiter": ",",
     "DecimalMarker": ".",
     "HasHeader": true,
@@ -91,10 +91,10 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "LightGbmMulti",
-        "Score": 0.99521172121812729,
-        "RuntimeInSeconds": 53.185,
+        "Score": 0.99517901428610678,
+        "RuntimeInSeconds": 6.789,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e5 * e10",
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4",
           "e0": {
             "OutputColumnNames": [
               "N",
@@ -127,91 +127,27 @@
             ],
             "OutputColumnName": "Features"
           },
-          "e10": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
           "e2": {
             "OutputColumnName": "label",
             "InputColumnName": "label",
             "AddKeyValueAnnotationsAsText": false
           },
-          "e5": {
-            "NumberOfLeaves": 4,
+          "e3": {
+            "NumberOfLeaves": 1090,
             "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 0.027382318131738439,
-            "NumberOfTrees": 3859,
-            "SubsampleFraction": 0.015756934038035457,
-            "MaximumBinCountPerFeature": 207,
-            "FeatureFraction": 0.87214472572348689,
-            "L1Regularization": 2.7266941922100829E-10,
-            "L2Regularization": 0.99999977667298645,
-            "LabelColumnName": "label",
-            "FeatureColumnName": "Features"
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "LightGbmMulti",
-        "Score": 0.99419915917650226,
-        "RuntimeInSeconds": 42.859,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e5 * e10",
-          "e0": {
-            "OutputColumnNames": [
-              "N",
-              "P",
-              "K",
-              "temperature",
-              "humidity",
-              "ph",
-              "rainfall"
-            ],
-            "InputColumnNames": [
-              "N",
-              "P",
-              "K",
-              "temperature",
-              "humidity",
-              "ph",
-              "rainfall"
-            ]
-          },
-          "e1": {
-            "InputColumnNames": [
-              "N",
-              "P",
-              "K",
-              "temperature",
-              "humidity",
-              "ph",
-              "rainfall"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e10": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
-          "e2": {
-            "OutputColumnName": "label",
-            "InputColumnName": "label",
-            "AddKeyValueAnnotationsAsText": false
-          },
-          "e5": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 0.17467931692449395,
-            "NumberOfTrees": 2611,
-            "SubsampleFraction": 0.933822991897838,
-            "MaximumBinCountPerFeature": 244,
-            "FeatureFraction": 0.9171456905265376,
+            "LearningRate": 0.323344352410979,
+            "NumberOfTrees": 161,
+            "SubsampleFraction": 0.99999977667298645,
+            "MaximumBinCountPerFeature": 343,
+            "FeatureFraction": 0.89278929143965446,
             "L1Regularization": 2E-10,
             "L2Regularization": 0.99999977667298645,
             "LabelColumnName": "label",
             "FeatureColumnName": "Features"
+          },
+          "e4": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
           }
         }
       },
@@ -219,10 +155,10 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "LightGbmMulti",
-        "Score": 0.990508059344401,
-        "RuntimeInSeconds": 24.413,
+        "Score": 0.99350759366140728,
+        "RuntimeInSeconds": 9.358,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e5 * e10",
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4",
           "e0": {
             "OutputColumnNames": [
               "N",
@@ -255,38 +191,38 @@
             ],
             "OutputColumnName": "Features"
           },
-          "e10": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
           "e2": {
             "OutputColumnName": "label",
             "InputColumnName": "label",
             "AddKeyValueAnnotationsAsText": false
           },
-          "e5": {
+          "e3": {
             "NumberOfLeaves": 4,
             "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 0.6371397473116327,
-            "NumberOfTrees": 1558,
-            "SubsampleFraction": 0.99999977667298645,
-            "MaximumBinCountPerFeature": 245,
-            "FeatureFraction": 0.99999999,
-            "L1Regularization": 3.0764154135698444E-10,
+            "LearningRate": 0.57337519738630471,
+            "NumberOfTrees": 672,
+            "SubsampleFraction": 0.82563844798233732,
+            "MaximumBinCountPerFeature": 282,
+            "FeatureFraction": 0.913158525707664,
+            "L1Regularization": 2E-10,
             "L2Regularization": 0.99999977667298645,
             "LabelColumnName": "label",
             "FeatureColumnName": "Features"
+          },
+          "e4": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
           }
         }
       },
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "FastTreeOva",
-        "Score": 0.98708303795322117,
-        "RuntimeInSeconds": 7.798,
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.99247583236424253,
+        "RuntimeInSeconds": 8.458,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e10",
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4",
           "e0": {
             "OutputColumnNames": [
               "N",
@@ -319,36 +255,38 @@
             ],
             "OutputColumnName": "Features"
           },
-          "e10": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
           "e2": {
             "OutputColumnName": "label",
             "InputColumnName": "label",
             "AddKeyValueAnnotationsAsText": false
           },
           "e3": {
-            "NumberOfLeaves": 28,
-            "MinimumExampleCountPerLeaf": 36,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 454,
-            "FeatureFraction": 0.9437825094090273,
-            "LearningRate": 0.69083008457073181,
+            "NumberOfLeaves": 377,
+            "MinimumExampleCountPerLeaf": 21,
+            "LearningRate": 0.36186378443081335,
+            "NumberOfTrees": 590,
+            "SubsampleFraction": 0.44248236495862264,
+            "MaximumBinCountPerFeature": 250,
+            "FeatureFraction": 0.9433697918347842,
+            "L1Regularization": 3.5941663751713525E-10,
+            "L2Regularization": 0.39644349001814322,
             "LabelColumnName": "label",
-            "FeatureColumnName": "Features",
-            "DiskTranspose": false
+            "FeatureColumnName": "Features"
+          },
+          "e4": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
           }
         }
       },
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "FastTreeOva",
-        "Score": 0.98673929107042591,
-        "RuntimeInSeconds": 6.17,
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.99067427188529378,
+        "RuntimeInSeconds": 19.369,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e10",
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4",
           "e0": {
             "OutputColumnNames": [
               "N",
@@ -381,9 +319,69 @@
             ],
             "OutputColumnName": "Features"
           },
-          "e10": {
+          "e2": {
+            "OutputColumnName": "label",
+            "InputColumnName": "label",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e3": {
+            "NumberOfLeaves": 1490,
+            "MinimumExampleCountPerLeaf": 25,
+            "LearningRate": 0.22837646113661114,
+            "NumberOfTrees": 507,
+            "SubsampleFraction": 0.23713847602160626,
+            "MaximumBinCountPerFeature": 221,
+            "FeatureFraction": 0.97358105796190442,
+            "L1Regularization": 7.3677985560582852E-10,
+            "L2Regularization": 0.13838070600118954,
+            "LabelColumnName": "label",
+            "FeatureColumnName": "Features"
+          },
+          "e4": {
             "OutputColumnName": "PredictedLabel",
             "InputColumnName": "PredictedLabel"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.97414087276135886,
+        "RuntimeInSeconds": 0.636,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4",
+          "e0": {
+            "OutputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "N",
+              "P",
+              "K",
+              "temperature",
+              "humidity",
+              "ph",
+              "rainfall"
+            ],
+            "OutputColumnName": "Features"
           },
           "e2": {
             "OutputColumnName": "label",
@@ -391,15 +389,21 @@
             "AddKeyValueAnnotationsAsText": false
           },
           "e3": {
-            "NumberOfLeaves": 13,
-            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfLeaves": 208,
+            "MinimumExampleCountPerLeaf": 24,
+            "LearningRate": 0.054249743070154476,
             "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 256,
-            "FeatureFraction": 0.99999999,
-            "LearningRate": 0.3571495653221346,
+            "SubsampleFraction": 0.75655753273625137,
+            "MaximumBinCountPerFeature": 226,
+            "FeatureFraction": 0.96777473996241847,
+            "L1Regularization": 2.8172912397048527E-10,
+            "L2Regularization": 0.99999977667298645,
             "LabelColumnName": "label",
-            "FeatureColumnName": "Features",
-            "DiskTranspose": false
+            "FeatureColumnName": "Features"
+          },
+          "e4": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
           }
         }
       }
@@ -408,27 +412,26 @@
       "e0": "ReplaceMissingValues",
       "e1": "Concatenate",
       "e2": "MapValueToKey",
-      "e3": "FastTreeOva",
-      "e4": "FastForestOva",
-      "e5": "LightGbmMulti",
-      "e6": "LbfgsLogisticRegressionOva",
-      "e7": "LbfgsMaximumEntropyMulti",
-      "e8": "SdcaMaximumEntropyMulti",
-      "e9": "SdcaLogisticRegressionOva",
-      "e10": "MapKeyToValue"
+      "e3": "LightGbmMulti",
+      "e4": "MapKeyToValue"
     },
-    "Schema": "e0 * e1 * e2 * (e3 + e4 + e5 + e6 + e7 + e8 + e9) * e10",
+    "Schema": "e0 * e1 * e2 * e3 * e4",
     "MetricName": "MacroAccuracy",
-    "ModelFilePath": "C:\\Projects\\Crop Recommendation Model\\Crop Recommendation Model\\Predictor.mlnet"
+    "ModelFilePath": "C:\\Users\\noobs\\source\\repos\\PriyanshuMahala\\Crop_Recommendation_Model\\Crop Recommendation Model\\Predictor.mlnet"
   },
   "Type": "TrainingConfig",
   "Version": 5,
   "TrainingOption": {
     "Version": 2,
     "Subsampling": false,
+    "Tuner": "eci-cfo",
     "Type": "ClassificationTrainingOption",
-    "TrainingTime": 600,
+    "TrainingTime": 180,
+    "OptimizeMetric": "MacroAccuracy",
     "LabelColumn": "label",
+    "AvailableTrainers": [
+      "LGBM"
+    ],
     "ValidationOption": {
       "Version": 0,
       "Type": "CrossValidationValidationOption",

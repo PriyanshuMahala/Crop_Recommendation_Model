@@ -14,7 +14,7 @@ namespace Crop_Recommendation_Model
 {
     public partial class Predictor
     {
-        public const string RetrainFilePath =  @"C:\Users\HP\Downloads\Crop_recommendation.csv";
+        public const string RetrainFilePath =  @"C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\Crop_recommendation.csv";
         public const char RetrainSeparatorChar = ',';
         public const bool RetrainHasHeader =  true;
         public const bool RetrainAllowQuoting =  false;
@@ -93,7 +93,7 @@ namespace Crop_Recommendation_Model
             var pipeline = mlContext.Transforms.ReplaceMissingValues(new []{new InputOutputColumnPair(@"N", @"N"),new InputOutputColumnPair(@"P", @"P"),new InputOutputColumnPair(@"K", @"K"),new InputOutputColumnPair(@"temperature", @"temperature"),new InputOutputColumnPair(@"humidity", @"humidity"),new InputOutputColumnPair(@"ph", @"ph"),new InputOutputColumnPair(@"rainfall", @"rainfall")})      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"N",@"P",@"K",@"temperature",@"humidity",@"ph",@"rainfall"}))      
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName:@"label",inputColumnName:@"label",addKeyValueAnnotationsAsText:false))      
-                                    .Append(mlContext.MulticlassClassification.Trainers.LightGbm(new LightGbmMulticlassTrainer.Options(){NumberOfLeaves=4,NumberOfIterations=3859,MinimumExampleCountPerLeaf=20,LearningRate=0.02738231813173844,LabelColumnName=@"label",FeatureColumnName=@"Features",Booster=new GradientBooster.Options(){SubsampleFraction=0.015756934038035457,FeatureFraction=0.8721447257234869,L1Regularization=2.726694192210083E-10,L2Regularization=0.9999997766729865},MaximumBinCountPerFeature=207}))      
+                                    .Append(mlContext.MulticlassClassification.Trainers.LightGbm(new LightGbmMulticlassTrainer.Options(){NumberOfLeaves=1090,NumberOfIterations=161,MinimumExampleCountPerLeaf=20,LearningRate=0.323344352410979,LabelColumnName=@"label",FeatureColumnName=@"Features",Booster=new GradientBooster.Options(){SubsampleFraction=0.9999997766729865,FeatureFraction=0.8927892914396545,L1Regularization=2E-10,L2Regularization=0.9999997766729865},MaximumBinCountPerFeature=343}))      
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName:@"PredictedLabel",inputColumnName:@"PredictedLabel"));
 
             return pipeline;
