@@ -1,6 +1,6 @@
-using System.Diagnostics;
 using Crop_Recommendation_Model.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace Crop_Recommendation_Model.Controllers
 {

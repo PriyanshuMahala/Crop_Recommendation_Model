@@ -1,7 +1,7 @@
 ﻿@model Crop_Recommendation_Model.Models.PredictorModel
 @{
     ViewBag.Title = "Crop Recommendation Predictor";
-    Layout = "_Layout"; 
+    Layout = "_Layout";
 }
 
 <div class="container mt-5">
@@ -10,31 +10,31 @@
     <form asp-action="Index" method="post">
         <div class="form-group mb-3">
             <label asp-for="Nitrogen">Nitrogen (mg/kg):</label>
-            <input asp-for="Nitrogen" class="form-control" type="number" step="any" />
+            <input asp-for="Nitrogen" class="form-control" type="number" step="any"/>
         </div>
         <div class="form-group mb-3">
             <label asp-for="Phosphorus">Phosphorus (mg/kg):</label>
-            <input asp-for="Phosphorus" class="form-control" type="number" step="any" />
+            <input asp-for="Phosphorus" class="form-control" type="number" step="any"/>
         </div>
         <div class="form-group mb-3">
             <label asp-for="Potassium">Potassium (mg/kg):</label>
-            <input asp-for="Potassium" class="form-control" type="number" step="any" />
+            <input asp-for="Potassium" class="form-control" type="number" step="any"/>
         </div>
         <div class="form-group mb-3">
             <label asp-for="Temperature">Temperature (°C):</label>
-            <input asp-for="Temperature" class="form-control" type="number" step="any" />
+            <input asp-for="Temperature" class="form-control" type="number" step="any"/>
         </div>
         <div class="form-group mb-3">
             <label asp-for="Humidity">Humidity (%):</label>
-            <input asp-for="Humidity" class="form-control" type="number" step="any" />
+            <input asp-for="Humidity" class="form-control" type="number" step="any"/>
         </div>
         <div class="form-group mb-3">
             <label asp-for="Ph">pH:</label>
-            <input asp-for="Ph" class="form-control" type="number" step="any" />
+            <input asp-for="Ph" class="form-control" type="number" step="any"/>
         </div>
         <div class="form-group mb-4">
             <label asp-for="Rainfall">Rainfall (mm):</label>
-            <input asp-for="Rainfall" class="form-control" type="number" step="any" />
+            <input asp-for="Rainfall" class="form-control" type="number" step="any"/>
         </div>
         <button class="btn btn-primary w-100">Submit</button>
     </form>

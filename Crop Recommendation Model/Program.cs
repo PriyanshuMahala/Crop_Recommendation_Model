@@ -21,8 +21,8 @@ app.UseAuthorization();
 app.MapStaticAssets();
 
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Predictor}/{action=Index}/{id?}")
+        name: "default",
+        pattern: "{controller=Predictor}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 

@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Crop_Recommendation_Model.Models;
+﻿using Crop_Recommendation_Model.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Crop_Recommendation_Model.Controllers
 {
