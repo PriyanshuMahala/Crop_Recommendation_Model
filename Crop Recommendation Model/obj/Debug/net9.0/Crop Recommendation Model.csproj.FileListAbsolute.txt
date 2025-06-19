@@ -1,0 +1,127 @@
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\appsettings.json
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Crop Recommendation Model.staticwebassets.runtime.json
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Crop Recommendation Model.staticwebassets.endpoints.json
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Predictor.mlnet
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Crop Recommendation Model.exe
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Crop Recommendation Model.deps.json
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Crop Recommendation Model.runtimeconfig.json
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Crop Recommendation Model.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Crop Recommendation Model.pdb
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Microsoft.ML.Core.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Microsoft.ML.Data.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Microsoft.ML.KMeansClustering.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Microsoft.ML.PCA.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Microsoft.ML.StandardTrainers.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Microsoft.ML.Transforms.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Microsoft.ML.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Microsoft.ML.CpuMath.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Microsoft.ML.DataView.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Microsoft.ML.FastTree.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Microsoft.ML.LightGbm.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\System.Numerics.Tensors.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\linux-x64\native\lib_lightgbm.so
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\osx-x64\native\lib_lightgbm.dylib
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\win-x64\native\lib_lightgbm.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\win-x64\native\lightgbm.exe
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\linux-arm\native\libLdaNative.so
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\linux-arm64\native\libLdaNative.so
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\linux-x64\native\libLdaNative.so
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\osx-arm64\native\libLdaNative.dylib
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\osx-x64\native\libLdaNative.dylib
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\win-arm64\native\LdaNative.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\win-x64\native\LdaNative.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\win-x86\native\LdaNative.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\linux-x64\native\libFastTreeNative.so
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\osx-x64\native\libFastTreeNative.dylib
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\win-x64\native\FastTreeNative.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\runtimes\win-x86\native\FastTreeNative.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.csproj.AssemblyReference.cache
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.AssemblyInfoInputs.cache
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.AssemblyInfo.cs
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.csproj.CoreCompileInputs.cache
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.RazorAssemblyInfo.cache
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.RazorAssemblyInfo.cs
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.sourcelink.json
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\scopedcss\bundle\Crop Recommendation Model.styles.css
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\scopedcss\projectbundle\Crop Recommendation Model.bundle.scp.css
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\2w14gxva4o-b9sayid5wm.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\hpl2u69h9d-m07hswwbkg.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\fl2v547via-xtxxf3hu2r.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\s66x28w2ej-t1cqhe9u97.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\bmr1nf3fxy-c2jlpeoesf.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\7ai484di2n-sejl45xvog.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\kk9jybdw6l-aexeepp0ev.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\n7l7aq1i1h-xvp3kq03qx.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\afv69drum7-ausgxo2sd3.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\egu1czbxb6-22vffe00uq.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\c6741i0ahj-cosvhxvwiu.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\omxqgyj7xx-qesaa3a1fm.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\ckwea70uhx-fvhpjtyr6v.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\2urbtp236h-tmc1g35s3z.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\n8wligwkw1-fsbi9cje9m.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\nvcqmbkyzs-rxsg74s51o.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\jui5r66t1o-ee0r1s7dh0.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\6ad9dikgx0-q9ht133ko3.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\ebtq4vtnzx-jd9uben2k1.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\xaatvo2qiz-gye83jo8yx.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\rq43fkab05-r4e9w2rdcm.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\ubhnb3xkjz-wl58j5mj3v.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\b9pjd7p1v4-c2oey78nd0.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\zfjdr7adl3-d4r6k3f320.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\oyi4gdu6k3-j5mq2jizvt.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\094iktqcf8-keugtjm085.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\8pcnw93zgj-nvvlpmu67g.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\xg8ao7b9lt-zub09dkrxp.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\6dsyig20o0-pj5nd1wqec.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\0gplm4qzlk-43atpzeawx.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\vejh2dpuw3-v0zj4ognzu.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\0hxjd2u8e2-ynyaa8k90p.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\w6638mxttn-hrwsygsryq.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\enijutf33o-c63t5i9ira.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\mbgenjzpa9-ft3s53vfgj.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\hcjzr50ko2-4094rpi4f9.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\5w0eoumswk-6pdc2jztkx.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\3j9iiqqjmh-hd3gran6i8.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\3h66yl7ydl-iovd86k7lj.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\prn6f0x8of-ltid2c489k.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\zxi0ljagma-kbrnm935zg.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\zumjtdkoye-8vyfqsqgz1.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\kmqv9ekqew-y7v9cxd14o.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\lkre826eth-u9q1upor1n.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\3cain81l80-h1s4sie4z3.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\awz4frqggg-4d85u1mtcx.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\vxdq2sohgg-0j3bgjxly4.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\0iqdidxorn-03hjc8e09r.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\3o0atndwla-48y08845bh.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\8oxt9my9ky-356vix0kms.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\2yhgycvu9n-83jwlth58m.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\l1mjb0x67b-mrlpezrjn3.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\uwggm9lx37-worgj0nhwm.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\arrae4k9r4-gk0pw8i4co.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\3qwwa1gjch-x0q3zqp4vz.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\5nqwhy49wg-d6nrnj6jjx.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\0fk81c4j4x-m9qm4tazc0.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\9b71e54d4v-ttgo8qnofa.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\sztzl9yk44-jjsuc0puko.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\tzb6re8t5m-9vr69e8ynj.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\pghchmy162-87fc7y1x7t.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\ww3qest4jv-mlv21k5csn.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\h17dcv6r2z-y2b76qy3ky.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\compressed\2ftkoqhqh6-y2b76qy3ky.gz
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Rec.9A6EE707.Up2Date
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\refint\Crop Recommendation Model.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.pdb
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.genruntimeconfig.cache
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\ref\Crop Recommendation Model.dll
