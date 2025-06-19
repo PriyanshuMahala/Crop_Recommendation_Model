@@ -17,34 +17,35 @@
     <form asp-action="Index" method="post">
         <div class="form-group mb-3">
             <label asp-for="Nitrogen">Nitrogen (?):</label>
-            <input required="true" asp-for="Nitrogen" class="form-control" type="number" step="any"/>
+            <input required="true" asp-for="Nitrogen" class="form-control" type="number" step="any" min="1"/>
         </div>
         <div class="form-group mb-3">
             <label asp-for="Phosphorus">Phosphorus (?):</label>
-            <input required="true" asp-for="Phosphorus" class="form-control" type="number" step="any"/>
+            <input required="true" asp-for="Phosphorus" class="form-control" type="number" step="any" min="1"/>
         </div>
         <div class="form-group mb-3">
             <label asp-for="Potassium">Potassium (?):</label>
-            <input required="true" asp-for="Potassium" class="form-control" type="number" step="any"/>
+            <input required="true" asp-for="Potassium" class="form-control" type="number" step="any" min="1"/>
         </div>
         <div class="form-group mb-3">
             <label asp-for="Temperature">Temperature (°C):</label>
-            <input required="true" asp-for="Temperature" class="form-control" type="number" step="any"/>
+            <input required="true" asp-for="Temperature" class="form-control" type="number" step="any" min="1"/>
         </div>
         <div class="form-group mb-3">
             <label asp-for="Humidity">Humidity (%):</label>
-            <input required="true" asp-for="Humidity" class="form-control" type="number" step="any"/>
+            <input required="true" asp-for="Humidity" class="form-control" type="number" step="any" min="1" max="100"/>
         </div>
         <div class="form-group mb-3">
             <label asp-for="Ph">pH:</label>
-            <input required="true" asp-for="Ph" class="form-control" type="number" step="any"/>
+            <input required="true" asp-for="Ph" class="form-control" type="number" step="any" min="1" max="10"/>
         </div>
         <div class="form-group mb-4">
             <label asp-for="Rainfall">Rainfall (mm):</label>
-            <input required="true" asp-for="Rainfall" class="form-control" type="number" step="any"/>
+            <input required="true" asp-for="Rainfall" class="form-control" type="number" step="any" min="1"/>
         </div>
         <button class="btn btn-primary w-100">Submit</button>
     </form>
+
 </div>
 </body>
 </html>

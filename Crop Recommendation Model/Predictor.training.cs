@@ -102,12 +102,18 @@ public partial class Predictor
                 @"label", addKeyValueAnnotationsAsText: false))
             .Append(mlContext.MulticlassClassification.Trainers.LightGbm(new LightGbmMulticlassTrainer.Options
             {
-                NumberOfLeaves = 1090, NumberOfIterations = 161, MinimumExampleCountPerLeaf = 20,
-                LearningRate = 0.323344352410979, LabelColumnName = @"label", FeatureColumnName = @"Features",
+                NumberOfLeaves = 1090,
+                NumberOfIterations = 161,
+                MinimumExampleCountPerLeaf = 20,
+                LearningRate = 0.323344352410979,
+                LabelColumnName = @"label",
+                FeatureColumnName = @"Features",
                 Booster = new GradientBooster.Options
                 {
-                    SubsampleFraction = 0.9999997766729865, FeatureFraction = 0.8927892914396545,
-                    L1Regularization = 2E-10, L2Regularization = 0.9999997766729865
+                    SubsampleFraction = 0.9999997766729865,
+                    FeatureFraction = 0.8927892914396545,
+                    L1Regularization = 2E-10,
+                    L2Regularization = 0.9999997766729865
                 },
                 MaximumBinCountPerFeature = 343
             }))
