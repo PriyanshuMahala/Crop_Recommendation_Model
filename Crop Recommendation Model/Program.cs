@@ -22,7 +22,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
         "default",
-        "{controller=Predictor}/{action=Index}/{id?}")
+        "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 
