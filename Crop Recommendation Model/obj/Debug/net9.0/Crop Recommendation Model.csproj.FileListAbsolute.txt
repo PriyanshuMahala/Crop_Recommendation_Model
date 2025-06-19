@@ -118,10 +118,10 @@ C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recom
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Rec.9A6EE707.Up2Date
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.dll
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\refint\Crop Recommendation Model.dll
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.pdb
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.genruntimeconfig.cache
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\ref\Crop Recommendation Model.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
