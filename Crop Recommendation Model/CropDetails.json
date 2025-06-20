@@ -1,0 +1,156 @@
+[
+  {
+    "name": "rice",
+    "hinglish": "chawal",
+    "soil_type": "Clayey, Loamy soil",
+    "states": [ "West Bengal", "Punjab", "Uttar Pradesh", "Bihar" ],
+    "season": "Kharif"
+  },
+  {
+    "name": "maize",
+    "hinglish": "makka",
+    "soil_type": "Well-drained Loamy",
+    "states": [ "Karnataka", "Bihar", "Madhya Pradesh", "Andhra Pradesh" ],
+    "season": "Kharif / Rabi"
+  },
+  {
+    "name": "chickpea",
+    "hinglish": "chana",
+    "soil_type": "Sandy loam to clay",
+    "states": [ "Madhya Pradesh", "Maharashtra", "Uttar Pradesh" ],
+    "season": "Rabi"
+  },
+  {
+    "name": "kidneybeans",
+    "hinglish": "rajma",
+    "soil_type": "Loamy",
+    "states": [ "Himachal Pradesh", "Uttarakhand", "Jammu & Kashmir" ],
+    "season": "Rabi / Summer"
+  },
+  {
+    "name": "pigeonpeas",
+    "hinglish": "arhar",
+    "soil_type": "Well-drained loamy",
+    "states": [ "Maharashtra", "Uttar Pradesh", "Madhya Pradesh" ],
+    "season": "Kharif"
+  },
+  {
+    "name": "mothbeans",
+    "hinglish": "matki",
+    "soil_type": "Sandy, loamy",
+    "states": [ "Rajasthan", "Gujarat" ],
+    "season": "Kharif / Zaid"
+  },
+  {
+    "name": "mungbean",
+    "hinglish": "moong",
+    "soil_type": "Sandy loam",
+    "states": [ "Rajasthan", "Maharashtra", "Uttar Pradesh" ],
+    "season": "Kharif / Rabi"
+  },
+  {
+    "name": "blackgram",
+    "hinglish": "urad",
+    "soil_type": "Loamy",
+    "states": [ "Madhya Pradesh", "Maharashtra", "Tamil Nadu" ],
+    "season": "Kharif"
+  },
+  {
+    "name": "lentil",
+    "hinglish": "masoor",
+    "soil_type": "Sandy loam to clay",
+    "states": [ "Madhya Pradesh", "Uttar Pradesh", "Bihar" ],
+    "season": "Rabi"
+  },
+  {
+    "name": "pomegranate",
+    "hinglish": "anaar",
+    "soil_type": "Loamy, well-drained",
+    "states": [ "Maharashtra", "Gujarat", "Rajasthan" ],
+    "season": "Perennial"
+  },
+  {
+    "name": "banana",
+    "hinglish": "kela",
+    "soil_type": "Rich loamy, alluvial",
+    "states": [ "Tamil Nadu", "Kerala", "Maharashtra" ],
+    "season": "Perennial"
+  },
+  {
+    "name": "mango",
+    "hinglish": "aam",
+    "soil_type": "Well-drained loamy",
+    "states": [ "Uttar Pradesh", "Maharashtra", "Andhra Pradesh" ],
+    "season": "Summer (Seasonal fruit)"
+  },
+  {
+    "name": "grapes",
+    "hinglish": "angoor",
+    "soil_type": "Sandy loam",
+    "states": [ "Maharashtra", "Karnataka", "Tamil Nadu" ],
+    "season": "Perennial"
+  },
+  {
+    "name": "watermelon",
+    "hinglish": "tarbooz",
+    "soil_type": "Sandy loam, well-drained",
+    "states": [ "Uttar Pradesh", "Madhya Pradesh", "Maharashtra", "Karnataka" ],
+    "season": "Zaid"
+  },
+  {
+    "name": "muskmelon",
+    "hinglish": "kharbooja",
+    "soil_type": "Sandy, loamy",
+    "states": [ "Rajasthan", "Punjab", "Uttar Pradesh" ],
+    "season": "Zaid"
+  },
+  {
+    "name": "apple",
+    "hinglish": "seb",
+    "soil_type": "Well-drained loam",
+    "states": [ "Jammu & Kashmir", "Himachal Pradesh", "Uttarakhand" ],
+    "season": "Summer / Temperate Zone Seasonal"
+  },
+  {
+    "name": "orange",
+    "hinglish": "santra",
+    "soil_type": "Loamy, sandy loam",
+    "states": [ "Maharashtra", "Madhya Pradesh", "Assam", "Punjab" ],
+    "season": "Winter (Seasonal fruit)"
+  },
+  {
+    "name": "papaya",
+    "hinglish": "papita",
+    "soil_type": "Sandy loam",
+    "states": [ "Karnataka", "Assam", "West Bengal", "Kerala" ],
+    "season": "Perennial"
+  },
+  {
+    "name": "coconut",
+    "hinglish": "nariyal",
+    "soil_type": "Sandy loam, coastal",
+    "states": [ "Kerala", "Tamil Nadu", "Karnataka", "Goa" ],
+    "season": "Perennial"
+  },
+  {
+    "name": "cotton",
+    "hinglish": "kapas",
+    "soil_type": "Black soil (Regur)",
+    "states": [ "Maharashtra", "Gujarat", "Telangana" ],
+    "season": "Kharif"
+  },
+  {
+    "name": "jute",
+    "hinglish": "patua",
+    "soil_type": "Alluvial, loamy",
+    "states": [ "West Bengal", "Bihar", "Assam" ],
+    "season": "Kharif"
+  },
+  {
+    "name": "coffee",
+    "hinglish": "coffee",
+    "soil_type": "Red soil, loamy",
+    "states": [ "Karnataka", "Kerala", "Tamil Nadu" ],
+    "season": "Perennial"
+  }
+]
