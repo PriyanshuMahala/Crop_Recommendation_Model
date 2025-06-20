@@ -1,5 +1,6 @@
 ﻿using Crop_Recommendation_Model.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Crop_Recommendation_Model.Controllers;
 
@@ -36,4 +37,12 @@ public class PredictorController : Controller
 
         return View(model);
     }
+
+    public List<Crop>? ParseJson(string filePath)
+    {
+        string data = System.IO.File.ReadAllText(filePath);
+        return JsonConvert.DeserializeObject<List<Crop>>(data);
+
+    }
+
 }

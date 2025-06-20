@@ -125,3 +125,4 @@ C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recom
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.pdb
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\Crop Recommendation Model.genruntimeconfig.cache
 C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\obj\Debug\net9.0\ref\Crop Recommendation Model.dll
+C:\Users\noobs\source\repos\PriyanshuMahala\Crop_Recommendation_Model\Crop Recommendation Model\bin\Debug\net9.0\CropDetails.json
