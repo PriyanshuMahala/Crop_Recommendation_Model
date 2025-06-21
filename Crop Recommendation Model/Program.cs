@@ -1,13 +1,16 @@
 using Crop_Recommendation_Model.Models;
 using Crop_Recommendation_Model.Services;
 using Newtonsoft.Json;
+using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddSingleton(new PredictorService("C:\\Users\\noobs\\source\\repos\\PriyanshuMahala\\Crop_Recommendation_Model\\Crop Recommendation Model\\CropDetails.json"));
+
+var CropPath = Path.Combine(builder.Environment.ContentRootPath, "CropDetails.json");
+builder.Services.AddSingleton(new PredictorService(Path.Combine(CropPath)));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
