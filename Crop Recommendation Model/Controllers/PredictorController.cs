@@ -1,11 +1,19 @@
 ﻿using Crop_Recommendation_Model.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Crop_Recommendation_Model.Services;
 
 namespace Crop_Recommendation_Model.Controllers;
 
 public class PredictorController : Controller
 {
+    private readonly PredictorService _predictorService;
+
+    public PredictorController(PredictorService predictorService)
+    {
+        _predictorService = predictorService;
+    }
+
     [HttpGet]
     public IActionResult Index()
     {
@@ -34,15 +42,22 @@ public class PredictorController : Controller
         };
 
         ViewData["Prediction"] = Predictor.Predict(data).PredictedLabel;
+        foreach (Crop crop in _predictorService.DeserealiszedData)
+        {
+            if (ViewData["Prediction"].ToString() == crop.Name.ToLower())
+            {
+
+                ViewData["CROP_NAME"] = crop.Name;
+                ViewData["CROP_HINGLISH"] = crop.Hinglish;
+                ViewData["CROP_SEASON"] = crop.Season;
+                ViewData["CROP_soiltype"] = crop.SoilType;
+                ViewData["CROP_STATES"] = crop.States;
+
+                break;
+            }
+        }
 
         return View(model);
-    }
-
-    public List<Crop>? ParseJson(string filePath)
-    {
-        string data = System.IO.File.ReadAllText(filePath);
-        return JsonConvert.DeserializeObject<List<Crop>>(data);
-
     }
 
 }

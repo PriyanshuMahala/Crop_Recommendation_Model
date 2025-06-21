@@ -5,47 +5,67 @@
 }
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <title>Enter data</title>
+    <meta charset="UTF-8" />
+    <title>Crop Predictor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-<div class="container mt-5">
-    <h2 class="text-center mb-4">Enter Soil and Weather Parameters</h2>
+<body class="bg-light text-dark">
 
-    <form asp-action="Index" method="post">
-        <div class="form-group mb-3">
-            <label asp-for="Nitrogen">Nitrogen (?):</label>
-            <input required="true" asp-for="Nitrogen" class="form-control" type="number" step="any" min="1"/>
-        </div>
-        <div class="form-group mb-3">
-            <label asp-for="Phosphorus">Phosphorus (?):</label>
-            <input required="true" asp-for="Phosphorus" class="form-control" type="number" step="any" min="1"/>
-        </div>
-        <div class="form-group mb-3">
-            <label asp-for="Potassium">Potassium (?):</label>
-            <input required="true" asp-for="Potassium" class="form-control" type="number" step="any" min="1"/>
-        </div>
-        <div class="form-group mb-3">
-            <label asp-for="Temperature">Temperature (°C):</label>
-            <input required="true" asp-for="Temperature" class="form-control" type="number" step="any" min="1"/>
-        </div>
-        <div class="form-group mb-3">
-            <label asp-for="Humidity">Humidity (%):</label>
-            <input required="true" asp-for="Humidity" class="form-control" type="number" step="any" min="1" max="100"/>
-        </div>
-        <div class="form-group mb-3">
-            <label asp-for="Ph">pH:</label>
-            <input required="true" asp-for="Ph" class="form-control" type="number" step="any" min="1" max="10"/>
-        </div>
-        <div class="form-group mb-4">
-            <label asp-for="Rainfall">Rainfall (mm):</label>
-            <input required="true" asp-for="Rainfall" class="form-control" type="number" step="any" min="1"/>
-        </div>
-        <button class="btn btn-primary w-100">Submit</button>
-    </form>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="mb-0 text-center">🌾 Enter Soil & Weather Parameters</h3>
+                    </div>
+                    <div class="card-body">
 
-</div>
+                        <form asp-action="Index" method="post">
+                            <div class="mb-3">
+                                <label asp-for="Nitrogen" class="form-label">Nitrogen (?):</label>
+                                <input asp-for="Nitrogen" class="form-control" type="number" required="true" step="any" min="1" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Phosphorus" class="form-label">Phosphorus (?):</label>
+                                <input asp-for="Phosphorus" class="form-control" type="number" required="true" step="any" min="1" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Potassium" class="form-label">Potassium (?):</label>
+                                <input asp-for="Potassium" class="form-control" type="number" required="true" step="any" min="1" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Temperature" class="form-label">Temperature (°C):</label>
+                                <input asp-for="Temperature" class="form-control" type="number" required="true" step="any" min="1" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Humidity" class="form-label">Humidity (%):</label>
+                                <input asp-for="Humidity" class="form-control" type="number" required="true" step="any" min="1" max="100" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Ph" class="form-label">pH:</label>
+                                <input asp-for="Ph" class="form-control" type="number" required="true" step="any" min="1" max="10" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label asp-for="Rainfall" class="form-label">Rainfall (mm):</label>
+                                <input asp-for="Rainfall" class="form-control" type="number" required="true" step="any" min="1" />
+                            </div>
+
+                            <button type="submit" class="btn btn-success w-100">🌱 Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
